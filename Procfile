@@ -1,1 +1,1 @@
-web: java -Xms256m -Xmx256m -Xss512k -jar target/portfolio-0.0.1.jar
+web: java -Xms256m -Xmx256m -Xss512k $JAVA_OPTS -Dserver.port=$PORT -jar target/portfolio-0.0.1.jar
